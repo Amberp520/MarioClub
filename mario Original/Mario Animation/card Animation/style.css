@@ -1,0 +1,60 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: #222;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+h1{
+    font-size: 48px;
+    margin: 10px 0;
+    font-weight: lighter;
+}
+
+.pop-up {
+    position: relative;
+    width: 500px;
+    top: 130px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.pop-up img {
+    position: relative;
+    top: 40px;
+}
+
+.pop-up .container {
+    position: absolute;
+    background: #f0e4d4;
+    padding: 30px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.main input {
+    padding: 6px;
+    border: 0;
+    border-radius: 10px 0px 0px 10px;
+    border: 2px solid #333;
+}
+
+.main button {
+    padding: 6px;
+    border: 0;
+    color: #fff;
+    background: #333;
+    position: relative;
+    right: 10px;
+    border-radius: 0px 10px 10px 0px;
+    border: 2px solid #333;
+}
+
+.cross {
+    background: #333;
+    color: #fff;
+    width: 22px;
+    height: 22px;
+    font-weight: bold;
+    border-radius: 11px;
+}
